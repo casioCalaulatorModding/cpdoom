@@ -1,10 +1,17 @@
 # doom-cp400
 A port of the doom engine to the Casio FX-CP400 "ClassPad II". 
 
+## Developing
+
+
+
 ## Prerequsites
 - A calculator modded with Hollyhock2 CFW (How? https://github.com/SnailMath/hollyhock-2)
 - A device to transfer files from
 - Mini-USB cable
+
+
+
 
 ## Installation
 ### Notice: The first release is not yet out and these installation steps are a work in progess.
@@ -15,6 +22,9 @@ A port of the doom engine to the Casio FX-CP400 "ClassPad II".
 4. Click on the "Flash Transfer" option.
 5. Drag the "doom-cp400.bin" file from extracted folder into the root of your calculator.
 6. Eject your calucator from your PC, and use the Hollyhock Launcher to launch Doom.
+
+
+
 
 
 ## Have questions?
