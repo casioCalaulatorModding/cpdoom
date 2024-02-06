@@ -1,0 +1,4 @@
+[submodule "sdk/hollyhock2"]
+	path = sdk/hollyhock2
+	url = https://github.com/luke-e-gibson/hollyhock-2
+
