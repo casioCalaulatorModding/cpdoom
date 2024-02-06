@@ -3,8 +3,12 @@ A port of the doom engine to the Casio FX-CP400 "ClassPad II".
 
 ## Developing
 ### !!Developing requires a ubuntu bases system!!
-if you are developing for this project all you need to do is run install.sh in side of scripts folder once per clone and run source.sh in scripts folder every time you want to run
 
+#### Getting started
+1. Clone this repo ```git clone https://github.com/luke-e-gibson/doom-classpad ```
+2. run install.sh inside of scripts folder ```./scripts/install ```
+3. run build-sdks.sh inside of script folder ```./scripts/build-sdks.sh ```
+4. every time you start developing or open a new terminel you need to run source.sh inside of script as this adds sh4-elf toold to path and the required sdk as well
 
 ## Prerequsites
 - A calculator modded with Hollyhock2 CFW (How? https://github.com/SnailMath/hollyhock-2)
