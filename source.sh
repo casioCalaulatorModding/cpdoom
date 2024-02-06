@@ -1,0 +1,1 @@
+export PATH=$PATH:./toolchain/sh4-tools/cross/bin
