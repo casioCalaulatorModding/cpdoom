@@ -1,6 +1,3 @@
-[submodule "doom-classpad"]
-	path = doom-classpad
-	url = https://github.com/luke-e-gibson/doom-classpad
-[submodule "skd/hollyhock2"]
-	path = skd/hollyhock2
+[submodule "sdk/hollyhock2"]
+	path = sdk/hollyhock2
 	url = https://github.com/luke-e-gibson/hollyhock-2

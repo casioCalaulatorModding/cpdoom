@@ -2,7 +2,8 @@
 A port of the doom engine to the Casio FX-CP400 "ClassPad II". 
 
 ## Developing
-
+### !!Developing requires a ubuntu bases system!!
+if you are developing for this project all you need to do is run install.sh in side of scripts folder once per clone and run source.sh in scripts folder every time you want to run
 
 
 ## Prerequsites
