@@ -23,9 +23,9 @@ LD_FLAGS:=-nostdlib --no-undefined
 READELF:=sh4-elf-readelf
 OBJCOPY:=sh4-elf-objcopy
 
-AS_SOURCES:=$(wildcard *.s)
-CC_SOURCES:=$(wildcard *.c)
-CXX_SOURCES:=$(wildcard *.cpp)
+AS_SOURCES:=$(wildcard *.s) $(wildcard **/*.s) $(wildcard **/**/*.s)
+CC_SOURCES:=$(wildcard *.c) $(wildcard **/*.c) $(wildcard **/**/*.c)
+CXX_SOURCES:=$(wildcard *.cpp) $(wildcard **/*.cpp) $(wildcard **/**/*.cpp)
 OBJECTS:=$(AS_SOURCES:.s=.o) $(CC_SOURCES:.c=.o) $(CXX_SOURCES:.cpp=.o)
 
 APP_ELF:=$(APP_NAME).hhk
