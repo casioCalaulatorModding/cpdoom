@@ -1,6 +1,0 @@
-[submodule "hollyhock2"]
-	path = hollyhock2
-	url = https://github.com/SnailMath/hollyhock-2
-[submodule "doomgeneric"]
-	path = doomgeneric
-	url = https://github.com/ozkl/doomgeneric
