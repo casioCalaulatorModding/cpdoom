@@ -3,7 +3,6 @@
 #include <sdk/os/lcd.hpp>
 #include <sdk/os/debug.hpp>
 
-
 #include <doomgeneric/doomgeneric.h>
 
 /*

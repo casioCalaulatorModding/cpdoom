@@ -18,10 +18,10 @@ AS:=sh4-elf-as
 AS_FLAGS:=
 
 CC:=sh4-elf-gcc
-CC_FLAGS:=-ffreestanding -fshort-wchar -Wall -Wextra -O2 -I $(SDK_HOLLY_DIR)/include/ -I $(SDK_DOOM_DIR) -I $(SDK_STD_DIR)
+CC_FLAGS:=-ffreestanding -fshort-wchar -Wall -Wextra -O2 -fpermissive -I $(SDK_HOLLY_DIR)/include/ -I $(SDK_DOOM_DIR) -I $(SDK_STD_DIR)
 
 CXX:=sh4-elf-g++
-CXX_FLAGS:=-ffreestanding -fno-exceptions -fno-rtti -fshort-wchar -Wall -Wextra -O2 -I $(SDK_HOLLY_DIR)/include/ -I $(SDK_DOOM_DIR) -I $(SDK_STD_DIR)
+CXX_FLAGS:=-ffreestanding -fno-exceptions -fno-rtti -fshort-wchar -fpermissive -Wall -Wextra -O2 -I $(SDK_HOLLY_DIR)/include/ -I $(SDK_DOOM_DIR) -I $(SDK_STD_DIR)
 
 LD:=sh4-elf-ld
 LD_FLAGS:=-nostdlib --no-undefined
