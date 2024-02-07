@@ -1,0 +1,83 @@
+libc/stdio/libc_a-vasniprintf.o: \
+ ../../../newlib/newlib/libc/stdio/vasniprintf.c \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/_ansi.h newlib.h \
+ _newlib_version.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/config.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/ieeefp.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/features.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/reent.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/reent.h \
+ /home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stddef.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/cdefs.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_default_types.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_types.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_types.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/lock.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/stdio.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/_ansi.h \
+ /home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stdarg.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/stdio.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/limits.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/syslimits.h \
+ /home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/limits.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/errno.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/errno.h \
+ ../../../newlib/newlib/libc/stdio/local.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/stdlib.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/stdlib.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/alloca.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/unistd.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/unistd.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/types.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_stdint.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/endian.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_endian.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/select.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_sigset.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_timeval.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/timespec.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_timespec.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_pthreadtypes.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/sched.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/types.h
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/_ansi.h:
+newlib.h:
+_newlib_version.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/config.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/ieeefp.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/features.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/reent.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/reent.h:
+/home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stddef.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/cdefs.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_default_types.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_types.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_types.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/lock.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/stdio.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/_ansi.h:
+/home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stdarg.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/stdio.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/limits.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/syslimits.h:
+/home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/limits.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/errno.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/errno.h:
+../../../newlib/newlib/libc/stdio/local.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/stdlib.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/stdlib.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/alloca.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/unistd.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/unistd.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/types.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_stdint.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/endian.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_endian.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/select.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_sigset.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_timeval.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/timespec.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_timespec.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_pthreadtypes.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/sched.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/types.h:

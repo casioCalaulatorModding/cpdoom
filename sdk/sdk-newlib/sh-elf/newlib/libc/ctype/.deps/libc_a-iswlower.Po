@@ -1,0 +1,25 @@
+libc/ctype/libc_a-iswlower.o: \
+ ../../../newlib/newlib/libc/ctype/iswlower.c \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/_ansi.h newlib.h \
+ _newlib_version.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/config.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/ieeefp.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/features.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/wctype.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_types.h \
+ /home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stddef.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_types.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_default_types.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_locale.h
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/_ansi.h:
+newlib.h:
+_newlib_version.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/config.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/ieeefp.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/features.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/wctype.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_types.h:
+/home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stddef.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_types.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_default_types.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/_locale.h:

@@ -1,0 +1,14 @@
+libm/complex/libm_a-casinh.o: \
+ ../../../newlib/newlib/libm/complex/casinh.c \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/complex.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/cdefs.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_default_types.h \
+ /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/features.h \
+ _newlib_version.h \
+ /home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stddef.h
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/complex.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/cdefs.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/machine/_default_types.h:
+/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/features.h:
+_newlib_version.h:
+/home/lukeg/opt/cross/lib/gcc/sh4-elf/14.0.1/include/stddef.h:
