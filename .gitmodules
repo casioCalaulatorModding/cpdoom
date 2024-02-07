@@ -2,3 +2,7 @@
 	path = sdk/hollyhock2
 	url = https://github.com/luke-e-gibson/hollyhock-2
 
+[submodule "sdk/newlib"]
+	path = sdk/newlib
+	url = https://sourceware.org/git/newlib-cygwin.git
+	commit = 26f7004bf73c421c3fd5e5a6ccf470d05337b435
