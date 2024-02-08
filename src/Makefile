@@ -1,6 +1,6 @@
 # run `make all` to compile the .hhk and .bin file, use `make` to compile only the .bin file.
 # The .hhk file is the original format, the bin file is a newer format.
-APP_NAME:=app_template
+APP_NAME:=doom
 
 ifndef HOLLY_HOCK_SDK
 $(error You need to define the HOLLY_HOCK_SDK environment variable, and point it to the sdk/ folder)
@@ -20,8 +20,8 @@ CC_FLAGS:=-ffreestanding -fshort-wchar -Wall -Wextra -O2 -I $(HOLLY_HOCK_SDK)/in
 CXX:=sh4-elf-g++
 CXX_FLAGS:=-ffreestanding -fno-exceptions -fno-rtti -fshort-wchar -Wall -Wextra -O2 -I $(HOLLY_HOCK_SDK)/include/ -I $(NEW_LIB_SDK)/sh-elf/include 
 
-LD:=sh4-elf-ld
-LD_FLAGS:=-nostdlib --no-undefined -L$(NEW_LIB_SDK)/lib -lm -lc
+LD:=sh4-elf-gcc
+LD_FLAGS:= -L$(NEW_LIB_SDK)/lib/
 
 READELF:=sh4-elf-readelf
 OBJCOPY:=sh4-elf-objcopy
@@ -51,8 +51,7 @@ $(APP_ELF): $(OBJECTS) $(HOLLY_HOCK_SDK)/sdk.o linker_hhk.ld
 	$(OBJCOPY) --set-section-flags .hollyhock_version=contents,strings,readonly $(APP_ELF) $(APP_ELF)
 
 $(APP_BIN): $(OBJECTS) $(HOLLY_HOCK_SDK)/sdk.o linker_bin.ld
-	$(LD) --oformat binary -T linker_bin.ld -o $@ $(LD_FLAGS) $(OBJECTS) $(HOLLY_HOCK_SDK)/sdk.o
-
+	$(LD) -o $@ $(LD_FLAGS) $(OBJECTS) $(HOLLY_HOCK_SDK)/sdk.o
 # We're not actually building sdk.o, just telling the user they need to do it
 # themselves. Just using the target to trigger an error when the file is
 # required but does not exist.
