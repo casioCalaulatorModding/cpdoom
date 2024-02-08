@@ -28,6 +28,19 @@ A port of the Doom engine to the Casio FX-CP400 "ClassPad II". Based on genericd
 5. Drag the "cpdoom.bin" file from extracted folder into the root of your calculator.
 6. Eject your calucator from your PC, and use the Hollyhock Launcher to launch Doom.
 
+## Controls
+| Action | Calculator bind |
+| ------------- | ------------- |
+| Move foward | DPAD Up  |
+| Move backward | DPAD Down |
+| Turn right | DPAD right |
+| Turn left | DPAD left |
+| Strafe left | Power (^) symbol |
+| Strafe right | x |
+| Fire weapon | EXE |
+| Use (open) | - |
+| Run | + |
+
 
 ## Prerequsites - Developing 
 - A calculator modified with Hollyhock2 CFW (How? https://github.com/SnailMath/hollyhock-2)
