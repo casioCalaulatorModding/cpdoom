@@ -1,4 +1,4 @@
-# doom-cp400
+# CPDOOM
 A port of the doom engine to the Casio FX-CP400 "ClassPad II". 
 
 ## Developing
