@@ -1,6 +1,0 @@
-libm/fenv/libm_a-fe_dfl_env.o: \
- ../../../newlib/newlib/libm/fenv/fe_dfl_env.c \
- /home/lukeg/doom/sdk/newlib/newlib/libc/include/fenv.h \
- /home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/fenv.h
-/home/lukeg/doom/sdk/newlib/newlib/libc/include/fenv.h:
-/home/lukeg/doom/sdk/newlib/newlib/libc/include/sys/fenv.h:

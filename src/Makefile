@@ -6,19 +6,22 @@ ifndef HOLLY_HOCK_SDK
 $(error You need to define the HOLLY_HOCK_SDK environment variable, and point it to the sdk/ folder)
 endif
 
+ifndef NEW_LIB_SDK
+$(error You need to define the NEW_LIB_SDK environment variable, and point it to the sdk/ folder)
+endif
 BIN_DIR=bin
 
 AS:=sh4-elf-as
 AS_FLAGS:=
 
 CC:=sh4-elf-gcc
-CC_FLAGS:=-ffreestanding -fshort-wchar -Wall -Wextra -O2 -I $(HOLLY_HOCK_SDK)/include/
+CC_FLAGS:=-ffreestanding -fshort-wchar -Wall -Wextra -O2 -I $(HOLLY_HOCK_SDK)/include/ -I $(NEW_LIB_SDK)/sh-elf/include
 
 CXX:=sh4-elf-g++
-CXX_FLAGS:=-ffreestanding -fno-exceptions -fno-rtti -fshort-wchar -Wall -Wextra -O2 -I $(HOLLY_HOCK_SDK)/include/ 
+CXX_FLAGS:=-ffreestanding -fno-exceptions -fno-rtti -fshort-wchar -Wall -Wextra -O2 -I $(HOLLY_HOCK_SDK)/include/ -I $(NEW_LIB_SDK)/sh-elf/include 
 
 LD:=sh4-elf-ld
-LD_FLAGS:=-nostdlib --no-undefined
+LD_FLAGS:=-nostdlib --no-undefined -L$(NEW_LIB_SDK)/lib -lm -lc
 
 READELF:=sh4-elf-readelf
 OBJCOPY:=sh4-elf-objcopy
