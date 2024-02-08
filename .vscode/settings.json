@@ -2,6 +2,9 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "stdio.h": "c",
-        "inttypes.h": "c"
+        "inttypes.h": "c",
+        "i_system.h": "c",
+        "doomstat.h": "c",
+        "in.h": "c"
     }
 }
